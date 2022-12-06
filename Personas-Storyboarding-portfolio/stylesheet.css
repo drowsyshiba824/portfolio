@@ -1,0 +1,165 @@
+#personas-storyboarding-page {
+    background-color: white;
+  }
+
+  body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Agenda-One", sans-serif;
+    color: #191919;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 35px;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .content {
+    padding: 20px 70px 20px 70px;
+  }
+  /* Nav Bar */
+
+.navig-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-size: 20px;
+}
+
+.navig-item {
+  float: left;
+}
+
+.navig-item a {
+  display: block;
+  color: #49565B;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+}
+
+.navig-item a:hover {
+  color: #158ACD;
+}
+
+.active {
+  color: #158ACD;
+  font-weight: 600;
+}
+
+.rounded-line {
+  color:#999c9f;
+  border-top: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+.logo{
+  padding-top:10px;
+  width:50px;
+}
+
+.logo-link{
+  margin: 0;
+  padding: 0;
+}
+  
+  .header-image {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    align-items:center;
+    justify-content: center;
+    width : 225px;
+    height : auto; 
+  }
+
+  .center-full-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 900px;
+    height : auto; 
+    margin-top: 50px;
+  }
+
+  .center-half-image {
+    display: block;
+    width : 450px;
+    height : auto; 
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
+
+  .section {
+    padding: 15px;
+    margin-left:100px;
+    margin-right: 100px;
+  }
+
+  .section_headings {
+    text-align:left;
+    font-weight: 700;
+    font-size: 3em;
+  }
+
+  .page-text {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 1.5;
+    color: #191919;
+  }
+
+  .question {
+    font-size:large;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 1.5;
+  }
+
+  .bullet-point {
+    font-size: larger;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
+  .header {
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+  }
+
+  .footer {
+    margin: 100px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column_container {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 32px;
+  }
+
+  .question-container {
+    flex-basis: 25%;
+    flex-grow: 0;
+    padding: 10px;
+  }
+
+ 

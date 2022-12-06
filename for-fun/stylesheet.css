@@ -1,0 +1,138 @@
+body,h1,h2,h3,h4,h5,h6,ul,li {
+    font-family: "Agenda-One", sans-serif;
+}
+
+.content {
+    padding: 10px 70px 10px 70px;
+}
+
+/* Nav Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-size: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #49565B;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #158ACD;
+  }
+
+  .active {
+    color: #158ACD;
+    font-weight: 600;
+  }
+
+  hr.rounded {
+    color:#999c9f;
+    opacity: 50%;
+    border-top: 1px solid #bbb;
+    border-radius: 5px;
+  }
+
+  .rounded-line{
+    opacity: 0;
+    margin-top: 50px;
+    margin-top: 50px;
+  }
+
+  .logo{
+    padding-top:10px;
+    width:50px;
+  }
+
+  .logo-link{
+    margin: 0;
+    padding: 0;
+  }
+
+
+h1{
+    font-size: 30px;
+    font-weight:600;
+    text-align: center;
+}
+
+h2{
+    font-size: 22px;
+    font-weight:600;
+}
+
+.art-gallery{
+  width:90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.triptych{
+  width:95%;
+
+}
+.art-gallery-mini{
+  width:100%;
+}
+
+.gallery-container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.mini-gallery-container{
+  width:40%;
+}
+
+.gif-container{
+  width:60%;
+}
+
+
+/*My Bio*/
+.about-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.centered-text{
+    font-size: 24px;
+    text-align: center;
+    font-weight:400;
+    color:#191919;
+}
+
+
+/*Footer*/
+
+.footer{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: left;
+    padding-top:50px;
+    padding-bottom: 100px;
+}
+
+.footer-logo{
+    width:20px;
+    height:20px;
+    padding:15px;
+}

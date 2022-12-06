@@ -1,0 +1,124 @@
+body,h1,h2,h3,h4,h5,h6,ul,li {
+    font-family: "Agenda-One", sans-serif;
+}
+
+.content {
+    padding: 30px 70px 20px 70px;
+}
+
+/* Nav Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-size: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #49565B;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #158ACD;
+  }
+
+  .active {
+    color: #158ACD;
+    font-weight: 600;
+  }
+
+  hr.rounded {
+    color:#999c9f;
+    border-top: 1px solid #bbb;
+    border-radius: 5px;
+  }
+
+  .logo{
+    padding-top:10px;
+    width:50px;
+  }
+
+  .logo-link{
+    margin: 0;
+    padding: 0;
+  }
+
+
+h1{
+    font-size: 30px;
+    font-weight:600;
+    text-align: center;
+}
+
+h2{
+    font-size: 22px;
+    font-weight:600;
+}
+
+
+/*My Bio*/
+.about-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.text-container{
+    width:60%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 24px;
+    font-weight:300;
+    color:#191919;
+}
+
+.image-container{
+    width:40%;
+    padding-left: 30px;
+    padding-right: 70px;
+}
+.bio-image{
+    width:100%;
+}
+
+
+/*Recently Read*/
+.book-container{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 50px;
+}
+
+.book{
+    width:200px;
+}
+
+
+/*Footer*/
+
+.footer{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: left;
+    padding-top:50px;
+    padding-bottom: 100px;
+}
+
+.footer-logo{
+    width:20px;
+    height:20px;
+    padding:15px;
+}

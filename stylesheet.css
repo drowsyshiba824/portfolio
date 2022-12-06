@@ -1,0 +1,171 @@
+/* General Page */
+
+body,h1,h2,h3,h4,h5,h6,ul,li {
+    font-family: "Agenda-One", sans-serif;
+}
+
+.content {
+    padding: 30px 70px 10px 70px;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
+.pb-100{
+    padding-bottom: 100px;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
+/* Nav Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-size: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #49565B;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #158ACD;
+  }
+
+  .active {
+    color: #158ACD;
+    font-weight: 600;
+  }
+
+  hr.rounded {
+    color:#999c9f;
+    border-top: 1px solid #bbb;
+    border-radius: 5px;
+  }
+
+  .logo{
+    padding-top:10px;
+    width:50px;
+  }
+
+  .logo-link{
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Page Header */
+
+  .opening{
+    font-weight: 600;
+    color:#49565B;
+    font-size: 60px;
+  }
+
+  .opening-container{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .opening-text{
+    color:#667479;
+    font-size: 27px;
+  }
+
+  .opening-image{
+    width:100%;
+  }
+
+  .opening-button-container{
+    display:flex;
+    width:200px;
+  }
+
+  .opening-button{
+    color: #158ACD;
+    font-size:20px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  /* Work Gallery */
+
+  .project-link {
+    text-decoration: none;
+  }
+
+  .project-container{
+    display:flex;
+  }
+
+  .project-container:hover {
+    background-color: #F0F1F2;
+    opacity: 90%;
+  }
+
+  .project-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+  }
+
+  .project-title{
+    color:#191919;
+    font-size:27px;
+  }
+
+  .project-description{
+    color:#999999;
+    font-size:21px;
+  }
+
+  .project-tags{
+    color:#999999;
+    font-size:18px;
+  }
+
+  .project-image-container{
+    width:60%;
+    background-color: #158ACD;
+  }
+  .project-cover-image{
+    width:100%;
+  }
+
+
+
+/*Footer*/
+
+.footer{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: left;
+    padding-top:50px;
+    padding-bottom: 100px;
+}
+
+.footer-logo{
+    width:20px;
+    height:20px;
+}

@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="stylesheet.css" />
     <meta name="description" content="my assignment write up">
     <link rel="stylesheet" href="https://use.typekit.net/cnk0ugd.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
     <style>
         body {
             font-family: "Agenda-One", sans-serif;
@@ -17,9 +21,9 @@
 
 <body>
 
-    <a href="./index.html"><img class="top-button" src="./assets/top.png" alt="back to top"></a>
+    <a href="#top"><img class="top-button" src="./assets/top.png" alt="back to top"></a>
     <!-- Navigation -->
-    <div class="content">
+    <div class="content" id = "top">
         <ul class = "navig-bar">
             <li style="float:left"> <a class = "logo-link" href="../index.html"><img class="logo" src="./assets/logo.png" alt="background images"></a></li>
             <li class = "navig-item" style="float:right"><a href="../for-fun/index.html">FOR FUN</a></li>
@@ -42,35 +46,42 @@
             <div class = "general-container pb-5">
                 <div class = "sixty-container">
                     <h2 class="section-heading">Overview</h2>
-                    <p class="page-text">Band of Hands is an HR startup based in San Diego working to 
-                        make employment easier for both small businesses and workers. 
-                        It provides flexibility to companies and workers by being a 
-                        single solution for onboarding, time, attendance, HR, and payroll. 
+                    <p class="page-text pb-3">Imagine you're a fitness instructor who works at 
+                        three different gyms. You have three onboarding processes, 
+                        three different payrolls, and three times the hassle. 
+                        Band of Hands is an HR startup based in San Diego working to make
+                         employment easier for small businesses and workers. 
                     </p>
-                    <p class="page-text"> Over the summer, Band of Hands was at a pivotal moment when 
-                        they were finding more clients, onboarding more workers, and needed to expand 
-                        product functionalities. One such functionality with increasing demand was a time-tracking
-                         system for workers.
+                    <p class="page-text pb-3">Band of Hands promotes flexible work not only by 
+                        posting jobs from various companies but also by having one onboarding 
+                        process to access all those jobs. It's a single solution for onboarding,
+                         time, attendance, HR, and payroll for companies and workers.  
+                    </p>
+                    <p class="page-text pb-3"> Over the summer Band of Hands was at a pivotal moment 
+                        when they were finding more clients, onboarding more workers, and 
+                        expanding product functionalities because of California's changing laws. 
+                        One such functionality with increasing demand was a time-tracking system 
+                        for workers.
                     </p>
                 </div>
                 <div class = "forty-container">
-                    <div class = "extra">
-                        <div class = "mb-2">
+                    <div class = "extra pt-5">
+                        <div class = "mb-4">
                             <h3>Date:</h3>
-                            <p class="page-text"> Jun '22 - Present</p>
+                            <p class="page-text"> Jul '22 - Aug '22</p>
                         </div>
                         
-                        <div  class = "mb-2">
+                        <div  class = "pt-3 mb-4">
                             <h3>Role:</h3>
                             <p class="page-text"> UX Design Intern </p>
                         </div>
         
-                        <div  class = "mb-2">
+                        <div  class = "pt-3 mb-4">
                             <h3>Team:</h3>
                             <p class="page-text"> CTO, Customer Success Manager, Developer Team & Product Owners </p>
                         </div>
         
-                        <div  class = "mb-2">
+                        <div  class = "pt-3 mb-4">
                             <h3>Tools:</h3>
                             <p class="page-text"> Adobe XD </p>
                         </div>
@@ -81,7 +92,12 @@
             </div>
             
             <h3 class = "mt-5 mb-4">Why In App Timetracking?</h3>
-            <img class="full-width-img" src="./assets/why-timetracking.png" alt="why in app timetracking">
+            <p class="page-text"> Time-tracking is already a hassle for workers on a good day. 
+                There's stress about whether you forgot to log certain hours, and whether you're 
+                getting paid for the work you are putting in. Without an in-house time-tracking system, 
+                things were falling between the cracks. 
+            </p>
+            <img class="full-width-img pt-4" src="./assets/why-timetracking.png" alt="why in app timetracking">
 
             <h3 class = "mt-5 mb-4">My Contributions</h3>
             <p class="page-text"> I worked with the entire team to understand the 
@@ -166,6 +182,68 @@
         </div>
     </div>
     
+    <!--Competitive Analysis-->
+    <div class="content">
+        <div class="section">
+            <h2 class="section-heading">Competitive Analysis</h2>
+            <p class="page-text">After conducting user interviews, I needed a better 
+                understanding of existing design practices around time-tracking. 
+                To do so, I conducted a feature analysis of competitors, focusing on 
+                features our team had discussed implementing first. 
+            </p>
+            <p class="page-text">I analyzed 4 platforms mentioned by users and product owners. 
+            </p>
+            <div class = "general-container">
+                <div class = "fifty-container me-4">
+                    <img class="full-width-img pt-5 pb-5" src="./assets/goals.png" alt="why in app timetracking">
+                </div>
+                <div class = "fifty-container ms-4">
+                    <img class="full-width-img pt-5 pb-5" src="./assets/platformCriteria.png" alt="why in app timetracking">
+                </div>
+            </div>
+            <div>
+                <img class="full-width-img pt-2 pb-5" src="./assets/Competitor Analysis Chart.png" alt="why in app timetracking">
+            </div>
+
+            <div class = "general-container">
+                <div class = "fifty-container me-4">
+                    <div>
+                        <h3 class = "mt-5 mb-4">Common Features</h3>
+                        <ul>
+                            <li class="bullet-point ">A timesheet that lets the user click 
+                                into individual days to review time punches 
+                            </li>
+                
+                            <li class="bullet-point "> Ability to view time worked in various time periods
+                            </li>
+                
+                            <li class="bullet-point "> Using motion as an indicator of being clocked in
+                            </li>
+
+                            <li class="bullet-point "> Manual input and editing of hours
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class = "fifty-container ms-4">
+                    <div>
+                        <h3 class = "mt-5 mb-4">Feature Gap</h3>
+                        <ul>
+                            <li class="bullet-point ">Data Visualization! 
+                            </li>
+                
+                            <li class="bullet-point "> Users wanted to visualize their hours, yet 
+                                there was no mobile data visualization of timesheets, only a list view.
+                            </li>
+                
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
     <!--Legal Road Bump-->
     <div class="content">
         <div class="section">
@@ -203,28 +281,6 @@
                     <div>
                         <h3 class = "mt-5 mb-4">Clocking In & Out</h3>
                         <ul>
-                            <li class="bullet-point ">Workers' hours are quickly accessible via 
-                                the job details page. 
-                            </li>
-                
-                            <li class="bullet-point "> The visualizations of their hours worked to
-                                personalize the page.
-                            </li>
-                
-                            <li class="bullet-point "> Time review allows workers to either quickly 
-                                glance at their hours or do a deeper analysis of their time punches.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class = "general-container pt-5 pb-5">
-                <div class = "fifty-container me-5">
-                    <div>
-                        <h3 class = "mt-5 mb-4">Reviewing Hours</h3>
-                        <ul>
                             <li class="bullet-point ">Dashboard widget and a header that allows workers 
                                 to clock in and out as soon as they opened the app.
                             </li>
@@ -237,7 +293,29 @@
                                 of clocking in, including carousels, drop-downs, as well as headers 
                                 that appeared only when a worker was clocked in.
                             </li>
-            
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class = "general-container pt-5 pb-5">
+                <div class = "fifty-container me-5">
+                    <div>
+                        <h3 class = "mt-5 mb-4">Reviewing Hours</h3>
+                        <ul>
+                            <li class="bullet-point ">Workers' hours are quickly accessible via 
+                                the job details page. 
+                            </li>
+                
+                            <li class="bullet-point "> The visualizations of their hours worked to
+                                personalize the page and fill a feature gap.
+                            </li>
+                
+                            <li class="bullet-point "> Time review allows workers to either quickly 
+                                glance at their hours or do a deeper analysis of their time punches.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -288,13 +366,46 @@
         </div>
     </div>
 
+    <!--User Feedback-->
+    <div class="content">
+        <div class="section">
+            <h2 class="section-heading">User Feedback</h2>
+            <p class="page-text">I presented my hi-fi iterations to the product owners, team, 
+                and the users I interviewed to get feedback I could iterate on.  
+            </p>
+            <p class="page-text">While feedback on the general design was positive, I received 
+                constructive feedback about the wording of the text, which reminded me 
+                to carefully consider the text I included. 
+            </p>
+            <div class = "general-container">
+                <div class = "fifty-container me-4">
+                    <img class="full-width-img pt-5 pb-5" src="./assets/wording-feedback.png" alt="why in app timetracking">
+                </div>
+                <div class = "fifty-container ms-4">
+                    <img class="full-width-img pt-5 pb-5" src="./assets/visualization-feedback.png" alt="why in app timetracking">
+                </div>
+            </div>
+            <div class = "general-container">
+                <div class = "fifty-container me-4">
+                    <img class="full-width-img pt-5 pb-5" src="./assets/Dash-feedback.png" alt="why in app timetracking">
+                </div>
+                <div class = "fifty-container ms-4">
+                    <img class="full-width-img pt-5 pb-5" src="./assets/design-feedback.png" alt="why in app timetracking">
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+
     <!--Final Designs-->
     <div class="content">
         <div class="section">
             <h2 class="section-heading">Final Designs: Simplifying & Going Deeper</h2>
-            <p class = "page-text">After iterating on my early designs, I finalized the high 
-                fidelity mockups, making sure they worked to solve the main problems I identified. 
-                I worked to simplify the process and add a few features for greater ease of use.
+            <p class = "page-text">In my final designs, I iterated based on the feedback I 
+                received to improve my wording, the graphs shown, and the dashboard widget 
+                to clock in. I simplified features that caused confusion, and further fleshed out 
+                the timesheet and time review flow.
             </p>
 
             <!--Dash Widget-->
@@ -360,7 +471,8 @@
                             <li class="bullet-point "> Appears on both the dashboard and job details page.
                             </li>
                 
-                            <li class="bullet-point "> This feature aims to prevent forgetting to clock out. 
+                            <li class="bullet-point "> Two indicators because competitors often used motion in at least two ways 
+                                to indicate an active clock. 
                             </li>
                         </ul>
                     </div>
@@ -378,7 +490,8 @@
                             <li class="bullet-point ">Drop-down on dashboard widget lets users easily toggle between their jobs.  
                             </li>
                 
-                            <li class="bullet-point "> I chose a dropdown over my a carousel to minimize looking for jobs.
+                            <li class="bullet-point "> Chose dropdown on the widget over a 
+                                separate carousel to minimize looking for jobs, and limit repetition.
                             </li>
                 
                             <li class="bullet-point "> The job displayed when you open the app is whichever job was 
@@ -427,6 +540,12 @@
                             </li>
 
                             <li class="bullet-point "> Takes advantage of worker's different preferences to make time-tracking feel more custom to an individual worker's needs. 
+                            </li>
+
+                            <li class="bullet-point "> Replaced circle visualizations with bar graphs based on feedback.
+                            </li>
+                
+                            <li class="bullet-point "> Changed button wording to eliminate confusion with spreadsheets
                             </li>
                         </ul>
                     </div>

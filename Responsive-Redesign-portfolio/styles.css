@@ -88,6 +88,23 @@ h3 {
     height: 100%;
 }
 
+.scroll-image {
+    width: auto;
+    height: 1050px;
+}
+
+.center-image{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.scroll-image-medium {
+    width: auto;
+    height: 700px;
+}
+
 .box {
     height: 600px;
 }

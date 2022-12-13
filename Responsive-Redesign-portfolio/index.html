@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="styles.css" />
     <meta name="description" content="my assignment write up">
     <link rel="stylesheet" href="https://use.typekit.net/cnk0ugd.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
     <style>
         body {
             font-family: "Agenda-One", sans-serif;
@@ -16,14 +20,14 @@
 </head>
 
 <body>
-    <a href="./index.html"><img class="top-button" src="./Images/top.png" alt="back to top"></a>
+    <a href="#top"><img class="top-button" src="./Images/top.png" alt="back to top"></a>
     <!-- Navigation -->
-    <div class="content">
+    <div class="content" id = "top">
         <ul class = "navig-bar">
-            <li style="float:left"> <a class = "logo-link" href="../index.html"><img class="logo" src="./Images/logo.png" alt="background images"></a></li>
-            <li class = "navig-item" style="float:right"><a href="../for-fun/index.html">FOR FUN</a></li>
-            <li class = "navig-item" style="float:right"><a href="../about/index.html">ABOUT</a></li>
-            <li class = "navig-item" style="float:right"><a href="../index.html">WORK</a></li>
+            <li style="float:left"> <a class = "logo-link" href="../"><img class="logo" src="./Images/logo.png" alt="background images"></a></li>
+            <li class = "navig-item" style="float:right"><a href="../for-fun/">FOR FUN</a></li>
+            <li class = "navig-item" style="float:right"><a href="../about/">ABOUT</a></li>
+            <li class = "navig-item" style="float:right"><a href="../">WORK</a></li>
         </ul>
         <hr class="rounded-line">
     </div>
@@ -36,7 +40,7 @@
 
     <div class="section">
         <h2 class="section-heading">Overview</h2>
-        <p class="page-text">In this project, I redesigned an author’s website, improving its usability and accessibility. I began with an analysis of the original website before creating low fidelity wireframes. I then finalized these designs into high fidelity prototypes
+        <p class="page-text">In this project, I redesigned an author's website, improving its usability and accessibility. I began with an analysis of the original website before creating low fidelity wireframes. I then finalized these designs into high fidelity prototypes
             with a refreshed style guide using Adobe XD.
         </p>
         <p class="page-text"> After designing the new website, I then developed the website using HTML and CSS, making sure it was responsive for all screen sizes.</p>
@@ -52,9 +56,13 @@
 
 
         <!-- Add caption with link to website -->
-        <div class="container pt-5 pb-5">
-            <div class="d-flex justify-content-center box-m gap-5">
-                <div class="d-flex flex-column align-items-center">
+            
+
+                <div class="container pt-3 pb-5">
+                    <img class="scroll-image-medium overflow-scroll center-image" src="./Images/originals.png " alt="Style Guide ">
+                </div>
+
+               <!--<div class="d-flex flex-column align-items-center">
                     <img class="image" src="./Images/OGweb.png" alt="Original Website">
                     <p class="page-text">Original Website</p>
                 </div>
@@ -65,7 +73,8 @@
                     </p>
                 </div>
             </div>
-        </div>
+            --> 
+        
     </div>
 
     <div class="section ">
@@ -74,7 +83,7 @@
         </p>
         <h3 class="section-heading pt-4">REGULAR USERS</h3>
         <ul>
-            <li class="bullet-point ">Author's name/logo doesn’t link to a home page, unclear what is the “home” page
+            <li class="bullet-point ">Author's name/logo doesn't link to a home page, unclear what is the "home" page
             </li>
             <li class="bullet-point ">The images are awkwardly much bigger than the text blocks, which makes regular users have to scroll more than necessary.
             </li>
@@ -87,7 +96,7 @@
             </li>
             <li class="bullet-point ">The navigation items also do not look clickable due to the font.
             </li>
-            <li class="bullet-point ">Because the author’s name is in the same style as the navigation items, you would imply that it would also behave as a link, but it does not.
+            <li class="bullet-point ">Because the author's name is in the same style as the navigation items, you would imply that it would also behave as a link, but it does not.
             </li>
             <li class="bullet-point ">There are no headers or spacing for the distinct sections, which makes it hard for new users to figure out the hierarchy of the site.
             </li>
@@ -128,16 +137,22 @@
             </li>
         </ul>
 
-        <p class="page-text book-text "> I agree with these problems found, as the lack of identified language makes it impossible for a screen reader to read. While the contrast errors were only for the “learn more about this book” buttons and to my eye the contrast was fine, it may
+        <p class="page-text book-text "> I agree with these problems found, as the lack of identified language makes it impossible for a screen reader to read. While the contrast errors were only for the "learn more about this book" buttons and to my eye the contrast was fine, it may
             still present issues for visually impaired users. The last two issues with headers and page regions is a problem for all users, as there is no hierarchical distinction between sections as explained in my usability issues.
         </p>
     </div>
 
     <div class="section ">
         <h2 class="section-heading ">Wireframing</h2>
-        <p class="page-text "> After identifying these problems, I began to brainstorm a responsive design and create low fidelity wireframes for mobile, tablets, and desktop. Scroll to see all the images!
+        <p class="page-text "> After identifying these problems, I began to brainstorm a responsive design and create low fidelity wireframes for mobile, tablets, and desktop.
         </p>
 
+        <p class="page-text pt-3 ">Scroll to see all the images!</p>
+
+        <div class="container pt-3 pb-5">
+            <img class="scroll-image-medium overflow-scroll" src="./Images/annotated-wireframes.png " alt="Style Guide ">
+        </div>
+        <!--
         <div class="container pb-5 overflow-scroll ">
             <div class="d-flex justify-content-start box gap-5 ">
                 <div class="d-flex flex-column align-items-center ">
@@ -150,39 +165,24 @@
                 </div>
             </div>
         </div>
-
+-->
 
     </div>
 
     <div class="section ">
         <h2 class="section-heading ">Final Design</h2>
         <h3 class="section-heading pt-3 ">Style Guide</h3>
-        <img class="image overflow-scroll" src="./Images/StyleGuide.png " alt="Style Guide ">
+        
+        <img class="scroll-image-medium center-image" src="./Images/StyleGuide.png " alt="Style Guide ">
+        
+        
 
         <h3 class="section-heading pt-5 ">High Fidelity Protoypes</h3>
 
         <p class="page-text pt-3 ">Scroll to see all the images!</p>
 
-        <div class="container pt-3 pb-5 overflow-scroll ">
-            <div class="d-flex justify-content-start box gap-5 ">
-                <div class="d-flex flex-column align-items-center ">
-                    <img class="image " src="./Images/hifi-web.jpg " alt="High fidelity annotated web prototype "> </div>
-                <div class="d-flex flex-column align-items-center ">
-                    <img class="image " src="./Images/hifi-ipad.jpg " alt="High fidelity annotated tablet prototype ">
-                </div>
-                <div class="d-flex flex-column align-items-center ">
-                    <img class="image " src="./Images/hifi-mobile.jpg " alt="High fidelity annotated mobile prototype ">
-                </div>
-                <div class="d-flex flex-column align-items-center">
-                    <img class=" image " src="./Images/hifi-web-na.png " alt="High fidelity web prototype "> </div>
-                <div class=" d-flex flex-column align-items-center ">
-                    <img class="image " src="./Images/hifi-ipad-na.png " alt="High fidelity tablet prototype ">
-                </div>
-                <div class="d-flex flex-column align-items-center ">
-                    <img class="image " src="./Images/hifi-mobile-na.png " alt="High fidelity mobile prototype ">
-                </div>
-            </div>
-
+        <div class="container pt-3 pb-5">
+            <img class="scroll-image-medium overflow-scroll pe-5" src="./Images/hifi-images.png " alt="Style Guide ">
         </div>
     </div>
 
@@ -194,8 +194,11 @@
         </p>
         <a class="page-text " href=" https://drowsyshiba824.github.io/website-redesign/ " target="_blank ">Click here to see the full website</a>
 
-
-
+        
+        <div class="container pt-3 pb-5">
+            <img class="scroll-image overflow-scroll" src="./Images/final-webs.png " alt="Style Guide ">
+        </div>
+<!--
         <div class="container pb-5 overflow-scroll mt-5 ">
             <div class="d-flex justify-content-center box-l gap-5 ">
                 <div class="d-flex flex-column align-items-center ">
@@ -208,6 +211,7 @@
                 </div>
             </div>
         </div>
+        -->
     </div>
 
     <div class="footer ">
